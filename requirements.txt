@@ -1,7 +1,10 @@
-openai==0.28
-tiktoken 
-chromadb==0.4.4
-langchain==0.0.249
-flask
-GitPython
-python-dotenv
+langchain  
+langchain-community 
+langchain-openai 
+langchain-text-splitters 
+langchain-classic 
+langchain-core 
+faiss-cpu 
+gitpython 
+python-dotenv 
+pydantic>=2.7,<3
