@@ -9,7 +9,7 @@ os.environ["GROQ_API_KEY"] = os.environ.get("GROQ_API_KEY")
 
 documents = load_repo("repo/")
 text_chunks = text_splitter(documents)
-embeddings = load_embeddings(text_chunks)
+embeddings = load_embeddings()
 
 
 vectordb = Chroma.from_documents(
